@@ -7,7 +7,7 @@
 This is a supermarket checkout test project for Develon Company, 
 
 ## Installation
-For application installation please run this commands
+For the application installation please run the following commands
 
     git clone https://github.com/clojerl/example-web-app
     composer update
@@ -24,22 +24,22 @@ From devolon_fpm_1 containers CLI run following commands
 
 ## Supported Urls
 
-For add Product in basket
+For adding Product in basket
     
     /add-product/{basketGUID}/{productID} method: GET
 
 
-For complete checkout process
+For completing checkout process
 
     /checkout/complete-checkout/{basketGUID} method: GET
 
 ----
 
-    Replace {productID} with one of numbers from 1 to 4
-    Replace {basketGUID} with guid that matches ^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$
+    Replace {productID} with any number from 1 to 4
+    Replace {basketGUID} with guid that matches /^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$/
 
 ----
 
-You can use postman for test application, find bellow postman collection shared url
+You can use postman for testing the application, below you can find the postman collection shared URL
 
     https://www.getpostman.com/collections/c11435d5454ce3b720c1
