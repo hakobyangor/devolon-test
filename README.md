@@ -2,7 +2,7 @@
     DEVOLON CODING EXERCISE
 </div>
 
-##Overview
+## Overview
 
 This is a supermarket checkout test project for Develon Company, 
 
@@ -22,7 +22,7 @@ From devolon_fpm_1 containers CLI run following commands
     php artisan migrate 
     php artisan db:seed --class=ProductsSeeder
 
-##Supported Urls
+## Supported Urls
 
 For add Product in basket
     
