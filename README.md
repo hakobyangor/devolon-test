@@ -9,7 +9,7 @@ This is a supermarket checkout test project for Develon Company,
 ## Installation
 For the application installation please run the following commands
 
-    git clone https://github.com/clojerl/example-web-app
+    git clone https://github.com/hakobyangor/devolon-test.git
     composer update
     cp .env.example .env
 
@@ -18,7 +18,7 @@ For the application installation please run the following commands
 
 From devolon_fpm_1 containers CLI run following commands
     
-    cd  cd ../laravel-docker
+    cd ../laravel-docker
     php artisan migrate 
     php artisan db:seed --class=ProductsSeeder
 
