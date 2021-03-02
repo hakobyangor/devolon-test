@@ -18,6 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });*/
 
+//basketGUID Example '537dae80-3b0c-4744-9b64-7f657f316d1d'
 
 Route::get('/add-product/{basketGUID}/{productID}', 'ProductController@addProduct')->where(['productID' => '[0-9]+']);
 Route::get('/checkout/complete-checkout/{basketGUID}', 'CheckoutController@completeCheckOut')->where(['basketGUID' => '^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$']);
